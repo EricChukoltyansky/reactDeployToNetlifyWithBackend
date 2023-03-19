@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     console.log("api", api);
-    fetch("https://deployment-8x3u.onrender.com/api")
+    fetch("https://tiny-purse-elk.cyclic.app/api")
       .then((res) => res.json())
       .then((data) => setUsers(data.users));
   }, [api]);
